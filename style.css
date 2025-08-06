@@ -28,11 +28,14 @@ body {
 .window_d {
 	width: 95%;
     height: 125px;
+    font-size: 32px;
+    line-height: 1.2em;
+    font-weight: 700;
     border-radius: 19px;
     background-color: #958c8c75;
-    text-align: center;
     display: flex;
     justify-content: flex-end;
+	align-items: center;
     margin: 0 auto;
     padding: 2em;
     margin-top: 1em;
@@ -45,7 +48,6 @@ body {
 	grid-template-columns: repeat(3, 1fr);
 	margin:  0 auto;
 	margin-bottom: 1.3em;
-	/* gap:2em; */
 }
 
 .digits {
@@ -58,7 +60,7 @@ body {
     flex-direction: row;
 }
 .digits .digit_b,
-.ops {
+.opss{
 	display: flex;
 	justify-content: center;
 	align-items: center;
